@@ -1,0 +1,120 @@
+name: devfest_ado_2024
+description: A cross-platform mobile application for DevFest Ado-Ekiti 2024
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  googleapis: ^11.4.0
+  googleapis_auth: ^1.4.1
+  http: ^1.1.0
+  add_2_calendar: ^2.2.4
+  share_plus: ^7.2.1
+  image_picker: ^1.0.7
+  path: ^1.8.3
+  permission_handler: ^11.2.0
+
+  # State Management
+  flutter_riverpod: ^2.4.9
+  riverpod_annotation: ^2.3.3
+
+  # Firebase
+  firebase_core: ^2.32.0
+  firebase_auth: ^4.16.0
+  firebase_storage: ^11.5.6
+  cloud_firestore: ^4.13.6
+  firebase_messaging: ^14.7.9
+
+  # Authentication
+  google_sign_in: ^6.1.6
+
+  # Storage
+  shared_preferences: ^2.2.2
+
+  # Navigation
+  go_router: ^13.0.0
+
+  # UI Components
+  flutter_svg: ^2.0.9
+  cached_network_image: ^3.3.0
+  shimmer: ^3.0.0
+
+  # Utils
+  intl: ^0.19.0
+  logger: ^2.0.2+1
+  internet_connection_checker: ^1.0.0+1
+  url_launcher: ^6.2.4
+  timeago: ^3.6.1
+
+  # Models
+  freezed_annotation: ^2.4.1
+  json_annotation: ^4.8.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+  build_runner: ^2.4.7
+  riverpod_generator: ^2.3.9
+  flutter_launcher_icons: ^0.13.1
+  freezed: ^2.4.6
+  json_serializable: ^6.7.1
+
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/gdglogo.png
+    - assets/images/
+    - assets/partners/google.png
+    - assets/partners/wtm.png
+    - assets/partners/paperless.png
+    - assets/partners/misde.png
+    - assets/partners/mbiller.png
+    - assets/partners/spurnation.png
+    - assets/partners/legacylab.png
+    - assets/partners/beame.png
+    - assets/partners/dunamis.png
+    - assets/partners/success.png
+    - assets/partners/mywork.png
+    - assets/partners/jmtech.png
+    - assets/partners/flutterbyte.png
+    - assets/partners/allvr.png
+    - assets/partners/super.png
+    - assets/partners/osca.png
+    - assets/partners/techhub.png
+    - assets/partners/3mtt.png
+    - assets/partners/bouesti.png
+    - assets/partners/eksu.png
+    - assets/partners/oye.png
+    - assets/partners/NIGPT.png
+    - assets/onboarding/
+    - assets/onboarding/welcome.png
+    - assets/onboarding/agenda.png
+    - assets/onboarding/community.png
+    - assets/onboarding/start.png
+    - assets/devfest_logo.png
+    - assets/google_logo.png
+      # Add all other partner logos...
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/gdglogo.png"
+  min_sdk_android: 21
+  web:
+    generate: true
+    image_path: "assets/images/gdglogo.png"
+  windows:
+    generate: true
+    image_path: "assets/images/gdglogo.png"
+    icon_size: 48
+  macos:
+    generate: true
+    image_path: "assets/images/gdglogo.png"

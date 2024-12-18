@@ -1,0 +1,31 @@
+// GENERATED CODE - DO NOT MODIFY BY HAND
+
+part of 'agenda_session.dart';
+
+// **************************************************************************
+// JsonSerializableGenerator
+// **************************************************************************
+
+_$AgendaSessionImpl _$$AgendaSessionImplFromJson(Map<String, dynamic> json) =>
+    _$AgendaSessionImpl(
+      id: json['id'] as String,
+      title: json['title'] as String,
+      speaker: json['speaker'] as String,
+      startTime: DateTime.parse(json['startTime'] as String),
+      endTime: DateTime.parse(json['endTime'] as String),
+      type: json['type'] as String,
+      description: json['description'] as String?,
+      speakerImage: json['speakerImage'] as String?,
+    );
+
+Map<String, dynamic> _$$AgendaSessionImplToJson(_$AgendaSessionImpl instance) =>
+    <String, dynamic>{
+      'id': instance.id,
+      'title': instance.title,
+      'speaker': instance.speaker,
+      'startTime': instance.startTime.toIso8601String(),
+      'endTime': instance.endTime.toIso8601String(),
+      'type': instance.type,
+      'description': instance.description,
+      'speakerImage': instance.speakerImage,
+    };

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1040104282952",
+    "project_id": "devfest-ado2024",
+    "storage_bucket": "devfest-ado2024.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1040104282952:android:24ae541315f2a962cf717d",
+        "android_client_info": {
+          "package_name": "com.paperless.devfestado24"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1040104282952-a2vr477m706hfhr8uqiggt13rmvq882l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.paperless.devfestado24",
+            "certificate_hash": "d50c8c811f13856d2045dd6dea977e5384350f88"
+          }
+        },
+        {
+          "client_id": "1040104282952-33ub0gta19q6tq63gugfk91h1b2c0jmh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3lmWX2XIrzkn7uhKQmQvQMuU1-O26hKY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1040104282952-33ub0gta19q6tq63gugfk91h1b2c0jmh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
